@@ -3,7 +3,8 @@
 cd ~
 git clone https://github.com/ilia85-star/pgb.git
 mkdir ~/pgb-tmp
-python3 -m pip install --upgrade pip venv
+python3 -m pip install --upgrade pip
+python3 -m pip install venv
 python3 -m venv ~/pgb-tmp
 source ~/pgb-tmp/bin/activate
 python3 -m pip install --upgrade pip build
