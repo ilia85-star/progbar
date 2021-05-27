@@ -50,7 +50,7 @@ def main():
         raise
         sys.exit(1)
 
-    if str(input('Do you want to use "time.sleep(sec)" or not? (y, N): ')) == "y":
+    if str(input('Do you want to use "time.sleep(secends)" or not? (y, N): ')) == "y":
         try:
             print('using the "time" library ("sleep" function).')
             time = float(input("Please enter the time that you want to sleep at every loop (secends unit): "))
