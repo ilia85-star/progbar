@@ -6,7 +6,7 @@ Create a text based ProgressBar in python!
 > empty
 (not avalable yet!)
 
-### pypi staging version installation:
+### pypi staging version installation (test pypi):
 > empty
 (not avalable yet!)
 
