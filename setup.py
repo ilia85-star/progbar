@@ -15,6 +15,9 @@ setuptools.setup(
     project_urls={
         "Bug Tracker": "https://github.com/ilia85-star/pgb/issues",
     },
+    entry_points={
+        "console_scripts": ["pgb = pgb.pgb:main"],
+    },
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
