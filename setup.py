@@ -16,7 +16,7 @@ setuptools.setup(
         "Bug Tracker": "https://github.com/ilia85-star/pgb/issues",
     },
     entry_points={
-        "console_scripts": ["pgb = pgb.pgb:ProgressBar"],
+        "console_scripts": ["pgb = pgb.pgb:main"],
     },
     classifiers=[
         "Programming Language :: Python :: 3",
