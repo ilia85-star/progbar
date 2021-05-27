@@ -1,1 +1,1 @@
-from pgb import ProgressBar
+from .pgb import ProgressBar
