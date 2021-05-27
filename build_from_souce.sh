@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-deactivate
 cd ~
 git clone https://github.com/ilia85-star/pgb.git
 mkdir ~/pgb-tmp
