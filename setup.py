@@ -16,7 +16,7 @@ setuptools.setup(
         "Bug Tracker": "https://github.com/ilia85-star/pgb/issues",
     },
     entry_points={
-        "console_scripts": ["pgb = pgb.pgb"],
+        "console_scripts": ["pgb = pgb.__main__:main"],
     },
     classifiers=[
         "Programming Language :: Python :: 3",
