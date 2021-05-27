@@ -42,7 +42,7 @@ class ProgressBar(object):
         self.term_step = int((self.percentage * self.term_lenght()) / 100)
         system(f'echo \033[A{self.command()}')
 
-if __name__ == '__main__':
+def main():
     from time import sleep
     try:
         bar = ProgressBar(processes_count=int(input("Please enter your processes count: ")))
@@ -65,3 +65,6 @@ if __name__ == '__main__':
         print()
         for i in range(bar.processes_count):
             bar.mark_as_done()
+        
+if __name__ == '__main__':
+    main()
