@@ -3,7 +3,7 @@
 Create a text based ProgressBar in python!
 
 ### pypi installation:
-> pip install pgb
+> python3 -m pip install pgb
 
 ### Install via github release:
 click the latest release at the releases section, download and run the ShellScript executable file.
